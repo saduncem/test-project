@@ -28,6 +28,9 @@
     "husky": "^8.0.1",
     "semantic-release": "^19.0.5"
   },
+  "files": [
+    "index.js"
+  ],
   "release": {
     "branches": [
       "+([0-9])?(.{+([0-9]),x}).x",
