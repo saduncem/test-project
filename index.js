@@ -1,9 +1,10 @@
-
 /**
- * Say "Hello world!" in the console.
+ * Say hello to someone in the console.
+ *
+ * @param {string} name Name of the person to great.
  */
-const sayHello = () => {
-  console.log("Hello world!");
+export const sayHello = (name = "world") => {
+  console.log(`Hello ${name}!`);
 };
 
 sayHello();
