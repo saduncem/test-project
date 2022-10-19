@@ -2,8 +2,8 @@
 /**
  * Say "Hello world!" in the console.
  */
-const sayHello = () => {
-  console.log("Hello world!");
+const sayHello = (name = "world") => {
+  console.log(`Hello ${name}!`);
 };
 
 sayHello();
