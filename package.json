@@ -1,5 +1,5 @@
 {
-  "name": "test-project",
+  "name": "@ludovicm67/test-project",
   "version": "0.0.0",
   "description": "Test project",
   "main": "index.js",
@@ -7,8 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludovicm67/test-project.git"
+  },
+  "author": {
+    "name": "Ludovic Muller",
+    "url": "https://ludovic-muller.fr/"
+  },
+  "bugs": {
+    "url": "https://github.com/ludovicm67/test-project/issues"
+  },
+  "homepage": "https://github.com/ludovicm67/test-project#readme",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
@@ -40,5 +51,9 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
