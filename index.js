@@ -3,7 +3,7 @@
  *
  * @param {string} name Name of the person to great.
  */
-const sayHello = (name = "world") => {
+export const sayHello = (name = "world") => {
   console.log(`Hello ${name}!`);
 };
 
